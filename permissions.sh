@@ -1,1 +1,1 @@
-chmod 777 Ceph monitor.sh Cinder.sh Glance.sh Keystone.sh MySQL InnoDB Cluster.sh Neutron networking.sh Nova cloud controller.sh NovaCompute.sh OpenStack dashboard.sh Placement.sh RabbitMQ.sh Vault.sh ceph-mon.yaml cinder.yaml ncc.yaml neutron.yaml nova-compute.yaml
+chmod 777 Ceph monitor.sh Cinder.sh Glance.sh Keystone.sh MySQLInnoDBCluster.sh Neutronnetworking.sh Novacloudcontroller.sh NovaCompute.sh OpenStackdashboard.sh Placement.sh RabbitMQ.sh Vault.sh ceph-mon.yaml cinder.yaml ncc.yaml neutron.yaml nova-compute.yaml
