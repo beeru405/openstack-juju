@@ -1,0 +1,8 @@
+juju deploy --to 2 --channel 2023.1/stable openstack-dashboard
+
+juju deploy --channel 8.0/stable mysql-router dashboard-mysql-router
+juju integrate dashboard-mysql-router:db-router mysql-innodb-cluster:db-router
+juju integrate dashboard-mysql-router:shared-db openstack-dashboard:shared-db
+
+juju integrate openstack-dashboard:identity-service keystone:identity-service
+juju integrate openstack-dashboard:certificates vault:certificates
